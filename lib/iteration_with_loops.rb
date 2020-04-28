@@ -22,7 +22,7 @@ row_index=0
     daily_lows << lowest_value
   row_index += 1  
   end
-daily_lows.sort  
+daily_lows 
 end
 
 
