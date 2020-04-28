@@ -6,7 +6,7 @@ row_index=0
     while element_index < src[row_index].count do
       src[row_index].sort 
       low_today=[]
-      lows_today=src[row_index].shift
+      lows_today=src[row_index].min
       daily_lows << lows_today
       element_index += 1
     end
