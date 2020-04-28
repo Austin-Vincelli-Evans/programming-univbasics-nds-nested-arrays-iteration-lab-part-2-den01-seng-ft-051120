@@ -8,6 +8,7 @@ row_index=0
       low_today=[]
       lows_today=src[row_index].min
       daily_lows << lows_today
+      
       element_index += 1
     end
   row_index += 1  
