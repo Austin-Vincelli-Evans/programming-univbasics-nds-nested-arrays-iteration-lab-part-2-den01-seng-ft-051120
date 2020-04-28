@@ -1,3 +1,5 @@
+require "pry"
+
 def find_min_in_nested_arrays(src)
 daily_lows=[]
 row_index=0 
@@ -9,7 +11,7 @@ row_index=0
       # low_today=[]
       # lows_today=src[row_index].min
       # daily_lows << lows_today
-      
+      binding.pry
       if src[row_index][element_index] < lowest_value
         lowest_value = src[row_index][element_index]
       end
