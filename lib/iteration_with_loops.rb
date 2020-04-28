@@ -12,7 +12,7 @@ row_index=0
     end
   row_index += 1  
   end
-daily_lows  
+daily_lows.sort  
 end
 
 
