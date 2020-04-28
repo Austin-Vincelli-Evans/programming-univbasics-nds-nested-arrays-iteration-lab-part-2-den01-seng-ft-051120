@@ -19,6 +19,7 @@ row_index=0
       
       element_index += 1
     end
+    daily_lows << lowest_value
   row_index += 1  
   end
 daily_lows.sort  
