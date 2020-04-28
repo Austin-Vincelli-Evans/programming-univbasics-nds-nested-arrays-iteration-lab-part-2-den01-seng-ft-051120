@@ -5,8 +5,7 @@ row_index=0
     element_index = 0 
     while element_index < src[row_index].count do
       src[row_index].sort 
-      daily_lows=src.shift
-      
+      daily_lows=src[row_index].shift
       element_index += 1
     end
   row_index += 1  
